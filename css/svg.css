@@ -1,0 +1,15 @@
+/***animation SVG****/
+#Path_7015{
+    animation: changeColor 1s infinite alternate;
+    transform: translate(351.55, 1665.03)
+}
+
+/* 
+@keyframes changeColor{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-1px);
+    }
+} */

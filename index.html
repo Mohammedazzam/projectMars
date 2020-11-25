@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc-Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+    <!--Start NavBar-->
+    <div class="navbar">
+        <img src="images/mars icon/logo.svg" alt="" class="logo animate__backInDown">
+        <nav>
+            <ul id="menuList">
+                <li class="animate__backInRight"><a data-goto="header" href="">Home</a></li>
+                <li class="animate__backInRight"><a data-goto="about-us" href="">Mars</a></li>
+                <li class="animate__backInRight"><a data-goto="Question" href="">What We DO</a></li>
+                <li class="animate__backInRight"><a data-goto="Contact-us" href="">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/menu.png" alt="" class="menu-icon" onclick="togglemenu()">
+    </div>
+    <!-- </div> -->
+
+    <!--End NavBar-->
+    <div id="fullpage">
+        <!--Start Header-->
+        <div class="header section" id="header">
+            <video loop muted autoplay preload="auto">
+                <source src="images/video.mp4" type="video/mp4">
+                You'r browser does not support video.
+            </video>
+            <div class="go">
+                <i class="fa fa-chevron-down fa-2x" data-goto="about-us"></i>
+            </div>
+        </div>
+
+
+        <div class="scroll-top">
+            <i class="fa fa-chevron-up fa-lg"></i>
+        </div>
+        <!--End Header-->
+
+        <!-- Start About Us -->
+
+
+
+        <section class="container about-us section" id="about-us">
+            <div class="row">
+                <div class="col-12 col-md-6 col-sm-12 text-container">
+                    <h2 class="wow slideInLeft" data-wow-duration="1s">About us</h2>
+                    <p class="wow slideInLeft" data-wow-duration="1.5s">
+                        That’s why we focus vigorously on satisfying their desires and expectations.
+                        As advocates for users, our talented experts work on
+                        their behalf - whether they are consumers, business clients,
+                        employees, citizens, partners or any other stakeholders.
+                        We know that every interaction they have with a brand impacts the value
+                        they attach to it. So, it’s the timing, relevance and quality of the
+                        experience that brings competitive advantage.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-sm-12 photo-container wow slideInRight">
+                    <video loop muted autoplay preload="auto">
+                        <source src="images/video2.mp4" type="video/mp4">
+                        You'r browser does not support video.
+                    </video>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Us -->
+
+        <!--start Question -->
+        <section class="container Question section" id="Question">
+            <div class="row">
+                <div class="col-12 col-md-6 col-sm-12">
+                    <h2 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
+                        How can we <a href="">help</a> you?
+                    </h2>
+                    <p class="wow fadeInDown" data-wow-duration="1.5s" data-wow-delay=".3s">
+                        Feel like contacting us? Fill in the form below and don’t forget to sign up br to receive all
+                        our latest news in your mailbox on a regular basis.
+                </div>
+                <div class="col-12 col-md-6 col-sm-12 video" data-wow-duration="1.5s">
+
+                </div>
+            </div>
+
+
+            <!--End Question -->
+
+            <!-- start services -->
+            <div class="container services">
+                <div class="row">
+                    <div class="col-6 col-md-4 col-sm-6 service">
+                        <div class="first wow bounceInLeft">
+                            <!-- <img src="images/mars icon/Group 30.svg"> -->
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="59.572" height="52.716"
+                                viewBox="0 0 59.572 52.716">
+                                <g id="Group_30" data-name="Group 30" transform="translate(-475.057 -1780.284)">
+                                    <path id="Path_7014" data-name="Path 7014"
+                                        d="M231.3,440.259a.877.877,0,0,1-.877-.877v-2.331a.606.606,0,0,0-.606-.606h-2.354a.606.606,0,0,0-.605.606v2.331a.877.877,0,0,1-1.753,0v-2.331a2.362,2.362,0,0,1,2.359-2.359h2.354a2.362,2.362,0,0,1,2.359,2.359v2.331a.877.877,0,0,1-.877.877Z"
+                                        transform="translate(276.139 1392.741)" />
+                                    <g id="ben">
+                                        <path id="Path_7015" data-name="Path 7015"
+                                            d="M161.663,135.92a.877.877,0,0,0-1.409,1.043l4.353,5.88a1.845,1.845,0,0,1-.08,2.243l-4.69,5.353H146.631l-4.69-5.353a1.845,1.845,0,0,1-.08-2.243l8.643-11.673v6.652a4.467,4.467,0,1,0,5.577.1v-6.589l1.925,2.6a.877.877,0,0,0,1.409-1.043l-3.76-5.079a2.958,2.958,0,0,0-4.842,0L140.452,141.8a3.607,3.607,0,0,0,.17,4.442l3.912,4.464a2.863,2.863,0,0,0-1.656,2.593v4.182a2.865,2.865,0,0,0,2.008,2.73l.239,6.91a.877.877,0,0,0,.876.846h.031a.877.877,0,0,0,.846-.907l-.233-6.72H159.94l-.233,6.72a.877.877,0,0,0,.846.907h.031a.877.877,0,0,0,.876-.846l.24-6.95a2.864,2.864,0,0,0,1.89-2.69V153.3a2.863,2.863,0,0,0-1.656-2.593l3.911-4.464a3.607,3.607,0,0,0,.17-4.442Zm-8.429-7.62a1.254,1.254,0,0,1,1.012.548l.082.111v9.4a.877.877,0,0,0,.395.732,2.712,2.712,0,1,1-2.889-.056.877.877,0,0,0,.423-.75v-9.476a1.241,1.241,0,0,1,.977-.506Zm8.6,29.18a1.108,1.108,0,0,1-1.106,1.106H145.738a1.107,1.107,0,0,1-1.106-1.106V153.3a1.107,1.107,0,0,1,1.106-1.106h14.993a1.107,1.107,0,0,1,1.106,1.106Z"
+                                            transform="translate(351.55 1665.033)" fill="#151515" />
+                                    </g>
+                                    <path id="Path_7016" data-name="Path 7016"
+                                        d="M72.21,139.42a17.512,17.512,0,0,1,2.255-7.907.877.877,0,0,0-1.525-.865,19.269,19.269,0,0,0-2.485,8.764,3.5,3.5,0,1,0,1.755.009Zm-.893,5.124A1.743,1.743,0,1,1,73.06,142.8,1.745,1.745,0,0,1,71.317,144.544Z"
+                                        transform="translate(415.128 1661.802)" />
+                                    <path id="Path_7017" data-name="Path 7017"
+                                        d="M57.715,29.463H54.9a1.858,1.858,0,0,0-1.856,1.856v.532H33.051v-.532a1.858,1.858,0,0,0-1.856-1.856H28.377a1.858,1.858,0,0,0-1.856,1.856v.532H6.53v-.532a1.858,1.858,0,0,0-1.856-1.856H1.856A1.858,1.858,0,0,0,0,31.319v2.817a1.858,1.858,0,0,0,1.856,1.856H4.674A1.858,1.858,0,0,0,6.53,34.137V33.6H21.749A19.311,19.311,0,0,0,15.313,38.4a.877.877,0,1,0,1.316,1.159,17.506,17.506,0,0,1,9.891-5.645v.227a1.858,1.858,0,0,0,1.856,1.856h2.817a1.858,1.858,0,0,0,1.856-1.856V33.91A17.56,17.56,0,0,1,47.292,50.4a3.5,3.5,0,1,0,1.754-.008A19.341,19.341,0,0,0,37.823,33.6H53.042v.532A1.858,1.858,0,0,0,54.9,35.993h2.817a1.858,1.858,0,0,0,1.856-1.856V31.319a1.858,1.858,0,0,0-1.856-1.856ZM4.776,34.137a.1.1,0,0,1-.1.1H1.856a.1.1,0,0,1-.1-.1V31.319a.1.1,0,0,1,.1-.1H4.674a.1.1,0,0,1,.1.1ZM49.927,53.781a1.743,1.743,0,1,1-1.743-1.743A1.745,1.745,0,0,1,49.927,53.781ZM31.3,34.137a.1.1,0,0,1-.1.1H28.377a.1.1,0,0,1-.1-.1V31.319a.1.1,0,0,1,.1-.1h2.817a.1.1,0,0,1,.1.1Zm26.521,0a.1.1,0,0,1-.1.1H54.9a.1.1,0,0,1-.1-.1V31.319a.1.1,0,0,1,.1-.1h2.817a.1.1,0,0,1,.1.1Z"
+                                        transform="translate(475.057 1750.821)" fill="#e7461a" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <label class="wow fadeInDown" data-wow-duration="1s">Branding</label>
+                        <ul>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".2s">Express your Brand</li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".4s">Visual Brand Design
+                            </li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".6s">Digital Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-sm-6 service">
+                        <div class="wow bounceInLeft" data-wow-delay=".2s">
+                            <!-- <img src="images/mars icon/003-coding.svg"> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="55" height="44.365" viewBox="0 0 55 44.365">
+                                <g id="_003-coding" data-name="003-coding" transform="translate(0 -49.5)">
+                                    <path id="Path_7046" data-name="Path 7046"
+                                        d="M.806,83.918a.806.806,0,0,0,.806-.806V60.779H37.168a.806.806,0,1,0,0-1.611H1.611V54.6A3.5,3.5,0,0,1,5.1,51.111h1.43a.806.806,0,1,0,0-1.611H5.1A5.108,5.108,0,0,0,0,54.6v28.51A.806.806,0,0,0,.806,83.918Z"
+                                        transform="translate(0 0)" />
+                                    <path id="Path_7047" data-name="Path 7047"
+                                        d="M49.9,49.5H10.258a.806.806,0,1,0,0,1.611H49.9A3.5,3.5,0,0,1,53.389,54.6v4.565H40.928a.806.806,0,0,0,0,1.611H53.389V88.763A3.5,3.5,0,0,1,49.9,92.254H5.1a3.5,3.5,0,0,1-3.491-3.491V86.943a.806.806,0,0,0-1.611,0v1.819a5.108,5.108,0,0,0,5.1,5.1H49.9a5.108,5.108,0,0,0,5.1-5.1V54.6A5.108,5.108,0,0,0,49.9,49.5Z"
+                                        transform="translate(0 0)" />
+                                    <g class="point-1">
+                                        <path id="Path_7048" data-name="Path 7048"
+                                            d="M30.75,81.667a2.417,2.417,0,1,0,2.417-2.417A2.42,2.42,0,0,0,30.75,81.667Zm3.223,0a.806.806,0,1,1-.806-.806A.807.807,0,0,1,33.973,81.667Z"
+                                            transform="translate(-27.447 -26.554)" />
+                                    </g>
+                                    <g class="point-2">
+                                        <path id="Path_7049" data-name="Path 7049"
+                                        d="M99.834,81.917a2.417,2.417,0,1,0-2.417,2.417A2.42,2.42,0,0,0,99.834,81.917Zm-3.223,0a.806.806,0,1,1,.806.806A.807.807,0,0,1,96.611,81.917Z"
+                                        transform="translate(-84.795 -26.777)" />
+                                    </g>
+                                    <g class="point-3">
+                                        <path id="Path_7050" data-name="Path 7050"
+                                        d="M163.834,81.917a2.417,2.417,0,1,0-2.417,2.417A2.42,2.42,0,0,0,163.834,81.917Zm-3.223,0a.806.806,0,1,1,.806.806A.807.807,0,0,1,160.611,81.917Z"
+                                        transform="translate(-141.92 -26.777)" />
+                                    </g>
+                                    <g id="search">
+                                        <path id="Path_7051" data-name="Path 7051"
+                                        d="M249.3,84.334a2.417,2.417,0,1,0,0-4.834H226.417a2.417,2.417,0,1,0,0,4.834Zm-23.687-2.417a.807.807,0,0,1,.806-.806H249.3a.806.806,0,1,1,0,1.611H226.417A.807.807,0,0,1,225.611,81.917Z"
+                                        transform="translate(-199.938 -26.777)" />
+                                    </g>
+                                    <g id="Group_29" data-name="Group 29" transform="translate(8.517 66.194)">
+                                        <g id="slash">
+                                            <path id="Path_7052" data-name="Path 7052"
+                                                d="M208.04,206.4l-6.831,15.639a2.493,2.493,0,1,0,4.569,2l6.831-15.639a2.493,2.493,0,1,0-4.569-2Zm3.092,1.351L204.3,223.394a.881.881,0,1,1-1.615-.706l6.831-15.639a.881.881,0,0,1,1.615.706Z"
+                                                transform="translate(-187.926 -204.91)" fill="#e7461a" />
+                                        </g>
+                                        <g id="left-cod">
+                                            <path id="  Path_7053" data-name="Path 7053"
+                                                d="M89.784,228.567a2.493,2.493,0,0,0-3.525,0l-6.242,6.242a2.493,2.493,0,0,0,0,3.525l6.326,6.326a2.493,2.493,0,1,0,3.525-3.525L85.3,236.572l4.479-4.479a2.5,2.5,0,0,0,0-3.525Zm-1.14,2.386L83.6,236a.811.811,0,0,0,0,1.139l5.133,5.133a.881.881,0,0,1-1.246,1.246l-6.326-6.326a.885.885,0,0,1,0-1.246l6.242-6.242a.881.881,0,1,1,1.246,1.247Z"
+                                                transform="translate(-79.287 -225.374)" fill="#e7461a" />
+                                        </g>
+                                        <g id="right-cod">
+                                        <path id="Path_7054" data-name="Path 7054"
+                                            d="M334.25,239.8a.806.806,0,1,0,1.139,1.139l2.605-2.605a2.493,2.493,0,0,0,0-3.525l-6.242-6.242a2.493,2.493,0,0,0-3.525,3.525l4.479,4.479-4.564,4.564a2.493,2.493,0,0,0,3.525,3.525l1.035-1.035a.806.806,0,0,0-1.139-1.139l-1.035,1.035a.881.881,0,1,1-1.246-1.246l5.133-5.133a.806.806,0,0,0,0-1.14l-5.049-5.049a.881.881,0,1,1,1.246-1.247l6.242,6.242a.881.881,0,0,1,0,1.246Z"
+                                            transform="translate(-300.759 -225.374)" fill="#e7461a" />
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+
+
+                        </div>
+                        <label class="wow fadeInDown" data-wow-duration="1s">User Experience (UX) design</label>
+                        <ul>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".2s">Mobile application
+                                development</li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".4s">Website development
+                            </li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".6s">Dashboard development
+                            </li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".8s">Web application
+                                development</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-sm-6 service">
+                        <div class="wow bounceInLeft" data-wow-delay=".4s">
+                            <!-- <img src="images/mars icon/Vdo edit.svg"> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="50.806" viewBox="0 0 70 50.806">
+                                <g id="Vdo_edit" data-name="Vdo edit" transform="translate(-1 -9)">
+                                    <path id="Path_7055" data-name="Path 7055"
+                                        d="M36,49.645H4.387a1.129,1.129,0,0,1-1.129-1.129V12.387a1.129,1.129,0,0,1,1.129-1.129H54.065a1.129,1.129,0,0,1,1.129,1.129V38.355a1.129,1.129,0,0,0,2.258,0V12.387A3.387,3.387,0,0,0,54.065,9H4.387A3.387,3.387,0,0,0,1,12.387V48.516A3.387,3.387,0,0,0,4.387,51.9H36a1.129,1.129,0,1,0,0-2.258Z" />
+                                    <g id="play">
+                                        <path id="Path_7056" data-name="Path 7056"
+                                        d="M23.575,34.145a1.129,1.129,0,0,0,1.139-.017l7.475-4.516a1.129,1.129,0,0,0,0-1.933l-7.475-4.516A1.129,1.129,0,0,0,23,24.129v9.032a1.129,1.129,0,0,0,.575.983Zm1.683-8.015,4.163,2.515-4.163,2.515Z"
+                                        transform="translate(2.839 1.806)" />
+                                        <path id="Path_7057" data-name="Path 7057"
+                                            d="M27.161,39.323A10.161,10.161,0,1,0,17,29.161,10.161,10.161,0,0,0,27.161,39.323Zm0-18.065a7.9,7.9,0,1,1-7.9,7.9,7.9,7.9,0,0,1,7.9-7.9Z"
+                                            transform="translate(2.065 1.29)" />
+                                    </g>
+                                    <path id="Path_7058" data-name="Path 7058"
+                                        d="M6.129,41a1.129,1.129,0,0,0,0,2.258h9.032a1.129,1.129,0,0,0,0-2.258Z"
+                                        transform="translate(0.516 4.129)" />
+                                    <path id="Path_7059" data-name="Path 7059"
+                                        d="M17.129,41a1.129,1.129,0,0,0,0,2.258h1.129a1.129,1.129,0,0,0,0-2.258Z"
+                                        transform="translate(1.935 4.129)" />
+                                    <g id="control-1">
+                                        <path id="Path_7060" data-name="Path 7060"
+                                            d="M51.935,39.129v1.129H36.129a1.129,1.129,0,0,0,0,2.258H51.935v1.129a1.129,1.129,0,0,0,1.129,1.129h3.387a1.129,1.129,0,0,0,1.129-1.129V42.516h7.9a1.129,1.129,0,0,0,0-2.258h-7.9V39.129A1.129,1.129,0,0,0,56.452,38H53.065A1.129,1.129,0,0,0,51.935,39.129Zm2.258,1.129h1.129v2.258H54.194Z"
+                                            transform="translate(4.387 3.742)" fill="#e7461a" />
+                                    </g>
+                                    <g id="control-2">
+                                        <path id="Path_7061" data-name="Path 7061"
+                                            d="M65.484,50.258h-7.9V49.129A1.129,1.129,0,0,0,56.452,48H53.065a1.129,1.129,0,0,0-1.129,1.129v1.129H36.129a1.129,1.129,0,0,0,0,2.258H51.935v1.129a1.129,1.129,0,0,0,1.129,1.129h3.387a1.129,1.129,0,0,0,1.129-1.129V52.516h7.9a1.129,1.129,0,0,0,0-2.258ZM55.323,52.516H54.194V50.258h1.129Z"
+                                            transform="translate(4.387 5.032)" fill="#e7461a" />
+                                    </g>
+                                    <g id="control-3">
+                                        <path id="Path_7062" data-name="Path 7062"
+                                            d="M45.161,49.774h3.387a1.129,1.129,0,0,0,1.129-1.129V47.516H59.839a1.129,1.129,0,0,0,0-2.258H49.677V44.129A1.129,1.129,0,0,0,48.548,43H45.161a1.129,1.129,0,0,0-1.129,1.129v1.129h-7.9a1.129,1.129,0,1,0,0,2.258h7.9v1.129A1.129,1.129,0,0,0,45.161,49.774Zm1.129-4.516h1.129v2.258H46.29Z"
+                                            transform="translate(4.387 4.387)" fill="#e7461a" />
+                                    </g>
+                                    <!-- <path id="Path_7063" data-name="Path 7063"
+                                        d="M62.387,45H60.129a1.129,1.129,0,0,0,0,2.258h2.258a1.129,1.129,0,0,0,0-2.258Z"
+                                        transform="translate(7.484 4.645)" fill="#e7461a" /> -->
+                                </g>
+                            </svg>
+
+                        </div>
+                        <label class="wow fadeInDown" data-wow-duration="1s">Video Proudciton</label>
+                        <ul>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".2s">Motion Graphic</li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".4s">Animation 2d</li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".6s">Animation 3d</li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".8s">Videographic</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-sm-6 service">
+                        <div class="wow bounceInLeft" data-wow-delay=".6s">
+                            <!-- <img src="images/mars icon/Outline.svg"> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="52.716" height="52.716"
+                                viewBox="0 0 52.716 52.716">
+                                <g id="Outline" transform="translate(-16 -16)">
+                                    <g id="triangle">
+                                        <path id="Path_7018" data-name="Path 7018"
+                                            d="M17.5,256.257a.879.879,0,0,0-1.5.621v24.6a.879.879,0,0,0,.879.879h24.6a.879.879,0,0,0,.621-1.5Zm.257,24.343V259l21.6,21.6Z"
+                                            transform="translate(0 -213.642)" fill="#e7461a" />
+                                        <path id="Path_7019" data-name="Path 7019"
+                                            d="M64.879,376.786h7.029a.879.879,0,0,0,.621-1.5L65.5,368.257a.879.879,0,0,0-1.5.621v7.029A.879.879,0,0,0,64.879,376.786ZM65.757,371l4.029,4.029H65.757Z"
+                                            transform="translate(-42.728 -313.341)" fill="#e7461a" />
+                                    </g>
+                                    <g class="point-1">
+                                        <path id="Path_7020" data-name="Path 7020" d="M104,48h1.757v1.757H104Z"
+                                            transform="translate(-78.335 -28.486)" />
+                                    </g>
+                                    <g class="point-2">
+                                        <path id="Path_7021" data-name="Path 7021" d="M136,48h1.757v1.757H136Z"
+                                            transform="translate(-106.821 -28.486)" />
+                                    </g>
+                                    <g class="point-3">
+                                        <path id="Path_7022" data-name="Path 7022" d="M168,48h1.757v1.757H168Z"
+                                            transform="translate(-135.307 -28.486)" />
+                                    </g>
+                                    <g id="cubic">
+                                        <path id="Path_7023" data-name="Path 7023"
+                                            d="M176.522,131.591a.866.866,0,0,0-.522.8v9.665a.879.879,0,0,0,.522.8l7.907,3.514a.875.875,0,0,0,.714,0h0l7.907-3.514a.879.879,0,0,0,.522-.8v-9.665a.866.866,0,0,0-.522-.8h0l-7.907-3.514a.88.88,0,0,0-.714,0l-7.907,3.514Zm7.385,12.629-6.15-2.734v-7.742l6.15,2.734Zm7.907-2.734-6.15,2.734v-7.742l6.15-2.733Zm-7.029-11.646,5.744,2.553-5.744,2.553-5.744-2.553Z"
+                                            transform="translate(-142.428 -99.7)" />
+                                    </g>
+                                    <g id="dashes">
+                                        <path id="Path_7024" data-name="Path 7024" d="M248,320h1.757v4.393H248Z"
+                                            transform="translate(-206.521 -270.613)" />
+                                        <path id="Path_7025" data-name="Path 7025" d="M248,72h1.757v4.393H248Z"
+                                            transform="translate(-206.521 -49.85)" />
+                                        <path id="Path_7026" data-name="Path 7026" d="M0,0H1.757V4.077H0Z"
+                                            transform="translate(27.038 30.856) rotate(-64.46)" />
+                                        <path id="Path_7027" data-name="Path 7027" d="M0,0H4.077V1.757H0Z"
+                                            transform="translate(53.222 31.015) rotate(-25.54)" />
+                                        <path id="Path_7028" data-name="Path 7028" d="M0,0H4.077V1.757H0Z"
+                                            transform="translate(27.038 45.07) rotate(-25.54)" />
+                                    </g>
+                                    <path id="Path_7029" data-name="Path 7029"
+                                        d="M117.687,56.415h-5.272V42.722l5.165-5.165a3.364,3.364,0,1,0-4.757-4.757l-.408.408V25.665a.879.879,0,0,0-.257-.621l-8.786-8.786a.879.879,0,0,0-.621-.257H75.514A3.518,3.518,0,0,0,72,19.514V44.994h1.757V19.514a1.759,1.759,0,0,1,1.757-1.757h26.358v5.272a3.518,3.518,0,0,0,3.514,3.514h5.272v8.422l-13.8,13.8a.88.88,0,0,0-.24.449l-.879,4.393a.879.879,0,0,0,1.034,1.034l4.393-.879a.879.879,0,0,0,.449-.24l9.043-9.043V56.415H93.086a.879.879,0,0,0-.879.879V59.93H87.815v1.757h4.393v2.636a.879.879,0,0,0,.879.879h24.6a.879.879,0,0,0,.879-.879V57.294a.879.879,0,0,0-.879-.879ZM103.629,23.029V19l5.786,5.786h-4.029a1.759,1.759,0,0,1-1.757-1.757ZM98.722,49.387l13.694-13.694,2.272,2.272L100.994,51.659ZM115.2,33.572a1.607,1.607,0,0,1,1.136,2.742l-.408.408-2.272-2.272.408-.408a1.6,1.6,0,0,1,1.136-.47Zm-17.183,17.6,1.193,1.193-1.491.3Zm18.79,12.275H93.965V58.173h1.757V59.93h1.757V58.173h1.757V59.93h1.757V58.173h1.757V59.93h1.757V58.173h1.757V59.93h1.757V58.173h1.757V59.93h1.757V58.173h1.757V59.93h1.757V58.173h1.757Z"
+                                        transform="translate(-49.85)" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <label class="wow fadeInDown" data-wow-duration="1s">Service design</label>
+                        <ul>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".2s">Graphic Design</li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".4s">Illustration Design
+                            </li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".6s">Printing Material
+                                design</li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".8s">3d art Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-sm-6 service">
+                        <div class="wow bounceInLeft" data-wow-delay=".8s">
+                            <!-- <img src="images/mars icon/002-creativity.svg"> -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="54" height="50.979" viewBox="0 0 54 50.979">
+                                <g id="_002-creativity" data-name="002-creativity" transform="translate(-3 -4.86)">
+                                    <g id="pencil">
+                                        <path id="Path_7030" data-name="Path 7030"
+                                            d="M61.985,56.44a.783.783,0,0,1-.68-.391L55.65,46.126a.783.783,0,0,1-.1-.391V12.175A4.558,4.558,0,0,1,60.1,7.622h3.77a4.558,4.558,0,0,1,4.553,4.553V45.738a.783.783,0,0,1-.1.391l-5.656,9.919a.783.783,0,0,1-.68.391ZM57.112,45.531l4.873,8.546,4.873-8.546V12.175A2.991,2.991,0,0,0,63.87,9.187H60.1a2.991,2.991,0,0,0-2.988,2.988Z"
+                                            transform="translate(-11.423 -0.6)" />
+                                        <path id="Path_7033" data-name="Path 7033" d="M62.773,19.838h1.565V46.131H62.773Z"
+                                        transform="translate(-12.994 -3.256)" />
+                                        <path id="Path_7031" data-name="Path 7031"
+                                        d="M56.929,56.04l-1.061-1.15c.062-.058,6.257-5.657,12.375,0l-1.064,1.149c-5.045-4.664-10.04-.192-10.25,0Z"
+                                        transform="translate(-11.493 -10.327)" />
+                                        <path id="Path_7032" data-name="Path 7032" d="M56.547,18.838H67.858V20.4H56.547Z"
+                                            transform="translate(-11.641 -3.039)" />
+                                    </g>
+                                    <g id="lump">
+                                        <path id="Path_7034" data-name="Path 7034"
+                                            d="M25.723,44.32H17.534a.783.783,0,0,1-.783-.783,12.2,12.2,0,0,0-4.175-9.085,13.652,13.652,0,1,1,18.026.069,11.965,11.965,0,0,0-4.1,9.016.783.783,0,0,1-.783.783Zm-7.429-1.565h6.669a13.532,13.532,0,0,1,4.61-9.412,12.085,12.085,0,1,0-15.958-.061,13.808,13.808,0,0,1,4.679,9.471Z"
+                                            transform="translate(-1.082 -1.244)" />
+                                        <path id="Path_7043" data-name="Path 7043" d="M24.421,34.008h1.565V48.631H24.421Z"
+                                            transform="translate(-4.657 -6.337)" />
+                                        <path id="Path_7044" data-name="Path 7044"
+                                            d="M24.473,33.111A3.415,3.415,0,1,1,27.887,29.7a3.415,3.415,0,0,1-3.415,3.415Zm0-5.264A1.849,1.849,0,1,0,26.322,29.7a1.849,1.849,0,0,0-1.849-1.849Z"
+                                            transform="translate(-3.926 -4.657)" />
+                                    </g>
+                                    <g id="light">
+                                        <path id="Path_7035" data-name="Path 7035"
+                                            d="M26.876,57.844H21.794a1.369,1.369,0,0,1-1.367-1.367v-4a.783.783,0,0,1,.783-.783h6.252a.783.783,0,0,1,.783.783v4a1.369,1.369,0,0,1-1.368,1.367Zm-4.885-1.565h4.687V53.257H21.992Z"
+                                            transform="translate(-3.788 -10.181)" fill="#e7461a" />
+                                        <path id="Path_7036" data-name="Path 7036" d="M24.421,4.86h1.565V7.785H24.421Z"
+                                            transform="translate(-4.657)" fill="#e7461a" />
+                                        <path id="Path_7037" data-name="Path 7037" d="M0,0H1.565V2.924H0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 11.388, 7.524)" fill="#e7461a" />
+                                        <path id="Path_7038" data-name="Path 7038" d="M0,0H1.565V2.924H0Z"
+                                            transform="matrix(0.5, -0.866, 0.866, 0.5, 5.465, 14.019)" fill="#e7461a" />
+                                        <path id="Path_7039" data-name="Path 7039" d="M3,25.534H5.925V27.1H3Z"
+                                            transform="translate(0 -4.494)" fill="#e7461a" />
+                                        <path id="Path_7040" data-name="Path 7040" d="M44.106,25.534h2.925V27.1H44.106Z"
+                                            transform="translate(-8.936 -4.494)" fill="#e7461a" />
+                                        <path id="Path_7041" data-name="Path 7041" d="M0,0H2.925V1.565H0Z"
+                                            transform="matrix(0.866, -0.5, 0.5, 0.866, 32.311, 14.122)" fill="#e7461a" />
+                                        <path id="Path_7042" data-name="Path 7042" d="M0,0H2.925V1.565H0Z"
+                                            transform="matrix(0.5, -0.866, 0.866, 0.5, 26.89, 9.276)" fill="#e7461a" />
+                                    </g>
+                                    
+                                    
+                                    <path id="Path_7045" data-name="Path 7045"
+                                        d="M55.176,67.512H28.138A3.918,3.918,0,0,1,24.225,63.6V58.553H25.79V63.6a2.348,2.348,0,0,0,2.348,2.348H55.176Z"
+                                        transform="translate(-4.614 -11.672)" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <label class="wow fadeInDown" data-wow-duration="1s">Campaign</label>
+                        <ul>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".2s">Digital Advertising
+                            </li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".4s">Marketing automation
+                            </li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".6s">Social media marketing
+                            </li>
+                            <li class="wow bounceIn" data-wow-duration="1s" data-wow-delay=".8s">3d art Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End services -->
+
+        <!-- start contact us -->
+        <section class="container Contact-us section" id="Contact-us">
+            <h2 class="wow bounceInRight" data-wow-duration="1s">Contact us</h2>
+            <p class="wow bounceInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                Feel like contacting us? Fill in the form below and don’t forget to sign up <br>
+                to receive all our latest news in your mailbox on a regular basis.
+            </p>
+
+            <!-- End contact us -->
+
+            <!-- start footer  -->
+            <section class="container footer " id="footer">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-sm-12 contact">
+                        <div>
+                            <p class="tel wow fadeInDown" data-wow-duration=".5s">+972 000 000 000</p>
+                            <p class="email wow fadeInDown" data-wow-duration="1s">Info@marsit.com</p>
+                        </div>
+                        <div>
+                            <p class="tel wow fadeInDown" data-wow-duration="1.5s">+972 000 000 000</p>
+                            <p class="email wow fadeInDown" data-wow-duration="2s">Support@marsit.com</p>
+                        </div>
+                        <div class="social">
+                            <a class="wow bounceIn" data-wow-duration="1s" data-wow-delay="1s" href=""
+                                target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a class="wow bounceIn" data-wow-duration="2s" data-wow-delay="1s" href=""
+                                target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                            <a class="wow bounceIn" data-wow-duration="3s" data-wow-delay="1s" href=""
+                                target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8 col-sm-12 map">
+                        <div class="back-img wow fadeInDown" data-wow-delay=".5s">
+                            <img src="images/Group 28.png" alt="Group28">
+                        </div>
+                        <div class="front-img wow fadeInUp" data-wow-delay="1s">
+                            <div>
+                                <img src="images/Group 27.png" alt="Group28">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- End footer  -->
+
+    </div>
+    <link rel="stylesheet" href="css/svg.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js" integrity="sha512-zMfrMAZYAlNClPKjN+JMuslK/B6sPM09BGvrWlW+cymmPmsUT1xJF3P4kxI3lOh9zypakSgWaTpY6vDJY/3Dig==" crossorigin="anonymous"></script> -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        // $(function() {  
+        //     $("body").niceScroll({
+        //         cursorcolor: "#e74518ab",
+        //         zindex: 9999,
+        //         cursorborder: 'none',
+        //     });
+        // });
+    </script>
+    <script>
+        $(function () {
+            $.scrollify({
+                section: ".section",
+            });
+        });
+    </script>
+</body>
+
+</html>
