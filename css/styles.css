@@ -248,6 +248,7 @@ nav ul li a:hover{
 /*start services */
 .services .service{
     margin-bottom: 50px;
+    height: 200px;
 }
 .services .service > div{
     margin: 10px;
